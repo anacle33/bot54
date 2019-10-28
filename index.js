@@ -41,7 +41,7 @@ bot.on('message', message => {
     } catch(e) {
         console.log(e.message);
     } finally {
-        console.log(`${message.author.username} ran the command: ${cmds}`);
+        //console.log(`${message.author.username} ran the command: ${cmds}`);
     }
 });
 
