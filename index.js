@@ -7,6 +7,8 @@ bot.on('ready', () => {
 	bot.user.setActivity('En dev',
 		{ type: 'streaming', 
 		url: 'https://www.twitch.tv/livestev'});
+	
+	console.log("bot prêt");
 });
 
 
